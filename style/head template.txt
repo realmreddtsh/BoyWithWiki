@@ -1,3 +1,5 @@
+You looking at this on GitHub? Good thing it's open source, yeah?
+
 <head>
     <title>BoyWithWiki Home</title>
     <link rel="icon" type="image/x-icon" href="boywithwiki.ico">
