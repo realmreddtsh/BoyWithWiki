@@ -1,5 +1,5 @@
 <head>
     <title>BoyWithWiki Home</title>
-    <link rel="icon" type="image/x-icon" href="boywithwiki.ico">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="../boywithwiki.ico">
+    <link rel="stylesheet" href="../styles/styles.css">
 </head>
