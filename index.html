@@ -1,168 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>BoyWithWiki Home</title>
-    <link rel="icon" type="image/x-icon" href="boywithwiki.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: "Special Gothic Expanded One", sans-serif;
-            background-color: #2488e6;
-            /* Darker Purple */
-            color: #ffffff;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-
-        header {
-            padding: 20px;
-            background-color: #000000;
-            /* Mid Purple */
-        }
-
-        header h1 {
-            margin: 0;
-        }
-
-        .social-links {
-            margin: 20px 0;
-        }
-
-        .social-links a {
-            display: inline-block;
-            margin: 10px;
-            padding: 15px 30px;
-            background-color: #000000;
-            /* Vibrant Purple */
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 18px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        .social-links a:hover {
-            background-color: #000000;
-            /* Light Purple on Hover */
-        }
-
-        .spotify-embed {
-            margin: 40px 0;
-        }
-
-        footer {
-            margin-top: 50px;
-            padding: 20px;
-            background-color: #240046;
-            /* Deepest Purple */
-        }
-
-        .big-button,
-        .small-button {
-            display: inline-block;
-            padding: 15px 30px;
-            font-size: 18px;
-            text-decoration: none;
-            border: none;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-            border-radius: 5px;
-            color: #fff;
-        }
-
-        .big-button {
-            background-color: #032841;
-        }
-
-        .small-button {
-            background-color: #2522b1;
-            margin: 10px;
-        }
-
-        .big-button:hover,
-        .small-button:hover {
-            background-color: #ddcf04;
-        }
-
-        html,
-        body {
-            height: 100%;
-        }
-
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            min-height: 100vh;
-        }
-
-        .container {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BoyWithWiki — Home for BoyWithUke &amp; chandol</title>
+  <meta name="description" content="BoyWithWiki — the fan home for all things BoyWithUke & chandol. Releases, characters, lore and links.">
+  <link rel="icon" type="image/x-icon" href="boywithwiki.ico">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9190513336641347" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <h1>BoyWithWiki</h1>
-    <h2>The home for all things BoyWithUke & chandol related. Made by u/jaydeemusic.</h2>
-    <h3>Page Categories</h3>
-    <div style="text-align: center;">
-        <a href="releases/index.html" class="big-button"
-            style="font-size: 24px; display: block; margin: -4 auto;">Releases</a>
-        <br>
-        <a href="characters/index.html" class="big-button"
-            style="font-size: 24px; display: block; margin: -4 auto;">Characters & People</a>
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a class="brand" href="index.html" aria-label="BoyWithWiki home">
+        <span class="brand-mark">B</span>
+        <span>BoyWithWiki<small>Fan Wiki</small></span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="releases/index.html">Releases</a>
+        <a href="characters/index.html">Characters</a>
+      </div>
+    </div>
+  </nav>
 
-        <br>
-        <h3>BoyWithUke Links</h3>
-        <div style="text-align: center;">
-            <a href="https://open.spotify.com/artist/1Cd373x8qzC7SNUg5IToqp" class="small-button" style="font-size: 18px;">Spotify</a>
-            <a href="https://discord.gg/aYBDC3zJDQ" class="small-button" style="font-size: 18px;">
-            Discord</a>
-            <a href="https://www.youtube.com/@boywithukeofficial" class="small-button" style="font-size: 18px;">
-                YouTube</a>
-            <a href="https://www.tiktok.com/@boywithuke" class="small-button" style="font-size: 18px;">TikTok</a>
-            <a href="https://www.instagram.com/boywithuke?igsh=NWtzd2ZwM2ljNGpx" class="small-button"
-                style="font-size: 18px;">Instagram</a>
-            <a href="https://www.x.com/boywithukes" class="small-button" style="font-size: 18px;">Twitter/X</a>
-            <a href="https://www.twitch.tv/boywithuke" class="small-button" style="font-size: 18px;">Twitch</a>
-        <h3>chandol Links</h3>
-                <a href="https://open.spotify.com/artist/6QxpOqXgNVgObidnodQ9yz" class="small-button" style="font-size: 18px;">Spotify</a>
-                <a href="https://discord.gg/chandol" class="small-button" style="font-size: 18px;">
-                    Discord</a>
-                <a href="https://www.youtube.com/@chandolofficial" class="small-button" style="font-size: 18px;">YouTube</a>
-                <a href="https://www.tiktok.com/@chandol.wav?_t=ZP-8uskt7p96Y2&_r=1" class="small-button"
-                style="font-size: 18px;">TikTok</a>
-                <a href="https://www.instagram.com/chandol.wav" class="small-button"
-                style="font-size: 18px;">Instagram</a>
-                <a href="https://www.x.com/chandol_wav" class="small-button" style="font-size: 18px;">Twitter/X</a>
-                <a href="https://www.twitch.tv/chandolofficial" class="small-button" style="font-size: 18px;">
-                    Twitch</a>
+  <main class="container">
+    <header class="hero">
+      <span class="badge"><span class="dot"></span> Made by u/jaydeemusic • Fan project</span>
+      <h1>BoyWithWiki</h1>
+      <p class="subtitle">The home for all things BoyWithUke &amp; chandol — discography, lore, characters &amp; people, and official links in one midnight-blue place.</p>
+      <div class="hero-actions">
+        <a href="releases/index.html" class="btn btn-primary">Explore Releases →</a>
+        <a href="characters/index.html" class="btn btn-secondary">Meet Characters &amp; People</a>
+      </div>
+    </header>
+
+    <section class="section" aria-label="Wiki categories">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Start here</p>
+          <h2>Page Categories</h2>
+        </div>
+      </div>
+      <div class="card-grid">
+        <a class="card" href="releases/index.html">
+          <div class="card-icon">💿</div>
+          <h3>Releases</h3>
+          <p>Albums, EPs, singles and SoundCloud cuts from BoyWithUke and chandol.</p>
+          <span class="card-cta">Browse discography →</span>
+        </a>
+        <a class="card" href="characters/index.html">
+          <div class="card-icon">🎭</div>
+          <h3>Characters &amp; People</h3>
+          <p>Charley Yang, Tobi, collaborators and the universe around the mask.</p>
+          <span class="card-cta">Explore lore →</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Official links">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Follow the music</p>
+          <h2>Official Links</h2>
+          <p>Straight to the source — streaming, video and community.</p>
+        </div>
+      </div>
+      <div class="split">
+        <div class="panel artist-bwu">
+          <div class="panel-top">
+            <div class="avatar">BWU</div>
+            <div>
+              <h3>BoyWithUke</h3>
+              <p class="handle">alt-pop • masked era to Lucid Dreams</p>
+            </div>
+          </div>
+          <div class="link-grid">
+            <a class="link-pill" href="https://open.spotify.com/artist/1Cd373x8qzC7SNUg5IToqp">Spotify</a>
+            <a class="link-pill" href="https://discord.gg/aYBDC3zJDQ">Discord</a>
+            <a class="link-pill" href="https://www.youtube.com/@boywithukeofficial">YouTube</a>
+            <a class="link-pill" href="https://www.tiktok.com/@boywithuke">TikTok</a>
+            <a class="link-pill" href="https://www.instagram.com/boywithuke?igsh=NWtzd2ZwM2ljNGpx">Instagram</a>
+            <a class="link-pill" href="https://www.x.com/boywithukes">Twitter/X</a>
+            <a class="link-pill" href="https://www.twitch.tv/boywithuke">Twitch</a>
+          </div>
+        </div>
+        <div class="panel artist-chan">
+          <div class="panel-top">
+            <div class="avatar">CH</div>
+            <div>
+              <h3>chandol</h3>
+              <p class="handle">new identity • Mercurial era</p>
+            </div>
+          </div>
+          <div class="link-grid">
+            <a class="link-pill" href="https://open.spotify.com/artist/6QxpOqXgNVgObidnodQ9yz">Spotify</a>
+            <a class="link-pill" href="https://discord.gg/chandol">Discord</a>
+            <a class="link-pill" href="https://www.youtube.com/@chandolofficial">YouTube</a>
+            <a class="link-pill" href="https://www.tiktok.com/@chandol.wav?_t=ZP-8uskt7p96Y2&_r=1">TikTok</a>
+            <a class="link-pill" href="https://www.instagram.com/chandol.wav">Instagram</a>
+            <a class="link-pill" href="https://www.x.com/chandol_wav">Twitter/X</a>
+            <a class="link-pill" href="https://www.twitch.tv/chandolofficial">Twitch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© 2027 BoyWithWiki. Fan project — not affiliated with the artists.</span>
+      <div class="footer-links">
+        <a href="releases/index.html">Releases</a>
+        <a href="characters/index.html">Characters</a>
+        <a href="index.html">Home</a>
+      </div>
+    </div>
+  </footer>
 </body>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9190513336641347"
-    crossorigin="anonymous"></script>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<footer>
-    <footer>&copy; 2027 BoyWithWiki. All rights reserved.</footer>
-</footer>
+</html>
